@@ -18,7 +18,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 
-// --- CONFIGURAÇÃO DO SERVIDOR (PHP/LARAVEL/NODE) ---
+// --- CONFIGURAÇÃO DO SERVIDOR (PHP/LARAVEL/NODE/etc) ---
 // Futuramente, você irá conectar com seu endpoint PHP aqui.
 const API_URL = "https://seu-servidor-php.com/api"; 
 
@@ -314,10 +314,10 @@ export default function App() {
               />
               <div className="hidden md:flex flex-col justify-center h-full border-l border-slate-200 pl-4">
                 <span className="font-bold text-sm tracking-widest uppercase text-[#141d38]">
-                  Universidade
+                  Franquia
                 </span>
                 <span className="text-[10px] font-bold text-[#76b240] tracking-wider uppercase">
-                  Corporativa
+                  Academy
                 </span>
               </div>
             </div>
@@ -794,4 +794,5 @@ export default function App() {
 
     </div>
   );
+
 }
